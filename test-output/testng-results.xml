@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T18:12:20 IST" name="Default suite" finished-at="2023-11-06T18:12:50 IST" duration-ms="29837">
+  <suite started-at="2024-01-03T17:34:58 IST" name="Default suite" finished-at="2024-01-03T17:35:54 IST" duration-ms="55769">
     <groups>
     </groups>
-    <test started-at="2023-11-06T18:12:20 IST" name="Default test" finished-at="2023-11-06T18:12:50 IST" duration-ms="29837">
+    <test started-at="2024-01-03T17:34:58 IST" name="Default test" finished-at="2024-01-03T17:35:54 IST" duration-ms="55769">
       <class name="Bug.HSB_7.Defaultsection_select">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:20 IST" name="setup" finished-at="2023-11-06T18:12:20 IST" duration-ms="746" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:34:58 IST" name="setup" finished-at="2024-01-03T17:35:26 IST" duration-ms="27690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:1, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:21 IST" name="Login" finished-at="2023-11-06T18:12:44 IST" duration-ms="23960" status="PASS">
+        <test-method signature="Login()[pri:1, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:26 IST" name="Login" finished-at="2024-01-03T17:35:50 IST" duration-ms="24283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="table_Process()[pri:2, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:44 IST" name="table_Process" finished-at="2023-11-06T18:12:47 IST" duration-ms="2995" status="PASS">
+        <test-method signature="table_Process()[pri:2, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:50 IST" name="table_Process" finished-at="2024-01-03T17:35:52 IST" duration-ms="2342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table_Process -->
-        <test-method signature="Brain_Id()[pri:3, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:47 IST" name="Brain_Id" finished-at="2023-11-06T18:12:48 IST" duration-ms="57" status="FAIL">
+        <test-method signature="Brain_Id()[pri:3, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:52 IST" name="Brain_Id" finished-at="2024-01-03T17:35:52 IST" duration-ms="72" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [SS-15] but found [None]]]>
@@ -32,7 +32,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at Bug.HSB_7.Defaultsection_select.Brain_Id(Defaultsection_select.java:110)
+at Bug.HSB_7.Defaultsection_select.Brain_Id(Defaultsection_select.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,11 +67,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Brain_Id -->
-        <test-method signature="SeriesType()[pri:4, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:48 IST" name="SeriesType" finished-at="2023-11-06T18:12:49 IST" duration-ms="1842" status="PASS">
+        <test-method signature="SeriesType()[pri:4, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:52 IST" name="SeriesType" finished-at="2024-01-03T17:35:53 IST" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeriesType -->
-        <test-method signature="SectionNo()[pri:5, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:49 IST" name="SectionNo" finished-at="2023-11-06T18:12:49 IST" duration-ms="57" status="FAIL">
+        <test-method signature="SectionNo()[pri:5, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:53 IST" name="SectionNo" finished-at="2024-01-03T17:35:53 IST" duration-ms="68" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1012] but found [None]]]>
@@ -84,7 +84,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at Bug.HSB_7.Defaultsection_select.SectionNo(Defaultsection_select.java:136)
+at Bug.HSB_7.Defaultsection_select.SectionNo(Defaultsection_select.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,7 +119,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SectionNo -->
-        <test-method signature="FileName()[pri:6, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:49 IST" name="FileName" finished-at="2023-11-06T18:12:49 IST" duration-ms="49" status="FAIL">
+        <test-method signature="FileName()[pri:6, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:53 IST" name="FileName" finished-at="2024-01-03T17:35:54 IST" duration-ms="55" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [B_37_FB3-SL_338-ST_NISL-SE_1012_thumbnail.jpg] but found [None]]]>
@@ -132,7 +132,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at Bug.HSB_7.Defaultsection_select.FileName(Defaultsection_select.java:149)
+at Bug.HSB_7.Defaultsection_select.FileName(Defaultsection_select.java:150)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -167,7 +167,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FileName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2023-11-06T18:12:49 IST" name="tearDown" finished-at="2023-11-06T18:12:50 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bug.HSB_7.Defaultsection_select@25084a1e]" started-at="2024-01-03T17:35:54 IST" name="tearDown" finished-at="2024-01-03T17:35:54 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

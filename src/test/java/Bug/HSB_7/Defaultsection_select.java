@@ -19,17 +19,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class Defaultsection_select {
-	WebDriver driver;
-@BeforeTest
+
+	private RemoteWebDriver driver;
+ 
+	@BeforeTest
 	
 	public void setup() throws Exception
 	{
 		
 		  DesiredCapabilities dc = DesiredCapabilities.chrome();
-	        URL url = new URL("http://172.12.20.118:5555/wd/hub");
+	        URL url = new URL("http://172.20.23.7:5555/wd/hub");
 	        driver = new RemoteWebDriver(url, dc);
-	
-	       
 	}
 
 	@Test(priority=1)
@@ -37,6 +37,7 @@ public class Defaultsection_select {
 		
 	driver.get("http://apollo2.humanbrain.in/");
 	driver.manage().window().maximize();
+	
 	WebDriverWait wait = new WebDriverWait(driver, 20);
 	WebElement viewerSectionLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@class, 'ng-tns-c93-3')]")));
 	viewerSectionLink.click();
