@@ -58,7 +58,7 @@ public class Defaultsection_select {
 	Thread.sleep(4000);
 	WebDriverWait wait2 = new WebDriverWait(driver,20);
 	WebElement  emailInput = wait2.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='email']")));
-	emailInput.sendKeys("teamsoftware457@gmail.com");
+	emailInput.sendKeys("softwareteam45@gmail.com");
 	WebDriverWait wait3 = new WebDriverWait(driver,20);
 	WebElement  Next = wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Next']")));
 	Next.click();
