@@ -100,6 +100,25 @@ public class Defaultsection_select {
 	}
 	catch(Exception e) {
 	System.out.println("table 3 element is not clicked");
+
+		 String parentWindow = driver.getWindowHandle();
+	    	 try {
+		 		    WebElement viewericon = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//nb-icon[@nbtooltip='Viewer']")));
+		 		   viewericon.click();
+		 		    System.out.println("viewer icon is clicked successfully.");
+		 		    Thread.sleep(2000);
+		 		} catch (Exception e) {
+		 		    System.out.println(" viewer icon is not clicked: " + e.getMessage());
+		 		}
+	    	 
+	    	 wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+			  Set<String> allWindows = driver.getWindowHandles();
+		        for (String window : allWindows) {
+		            if (!window.equals(parentWindow)) {
+		                driver.switchTo().window(window);
+		                break;
+		            }
+		        }
 	}}
 	@Test(priority = 3)
 	public void Brain_Id() {
